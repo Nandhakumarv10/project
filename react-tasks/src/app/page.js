@@ -1,10 +1,13 @@
 import React from 'react'
-import MyButton from './MyButton/page'
+import Link from 'next/link'
 
 export default function Page() {
   return (
-    <div className="bg-white text-black w-full h-screen">
-      <MyButton />
+    <div className=" flex flex-col bg-white text-black w-full h-screen">
+     <Link href="/MyButton">Button</Link><br />
+     <Link href="/Avator">Avator</Link><br />
+     <Link href="/RenderingList">RenderingList</Link><br />
+
     </div>
   )
 }
