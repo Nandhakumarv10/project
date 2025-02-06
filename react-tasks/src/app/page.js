@@ -9,6 +9,7 @@ export default function Page() {
      <Link href="/RenderingList">RenderingList</Link><br />
      <Link href="/ReuseComp">Reuse Component</Link><br />
      <Link href="/UsingMutipleData">Multiple Data</Link><br />
+     <Link href="/YourComponent">Your First Component</Link><br />
 
     </div>
   )
