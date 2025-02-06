@@ -7,6 +7,7 @@ export default function Page() {
      <Link href="/MyButton">Button</Link><br />
      <Link href="/Avator">Avator</Link><br />
      <Link href="/RenderingList">RenderingList</Link><br />
+     <Link href="/ReuseComp">Reuse Component</Link><br />
 
     </div>
   )
