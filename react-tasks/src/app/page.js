@@ -8,7 +8,7 @@ export default function Page() {
      <Link href="/Avator">Avator</Link><br />
      <Link href="/RenderingList">RenderingList</Link><br />
      <Link href="/ReuseComp">Reuse Component</Link><br />
-     <Link href="/UsingMutipleData">Reuse Component</Link><br />
+     <Link href="/UsingMutipleData">Multiple Data</Link><br />
 
     </div>
   )
