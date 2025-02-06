@@ -13,9 +13,10 @@ const [count2,setCount2]=useState(0);
   setCount2(count2 +2)
  }
   return (<>
-  <div className='flex flex-col gap-3'>
-    <button className=" p-2 bg-black text-white "onClick={IncreaseCount}> CLick this:{count}</button>
-    <button onClick={Increase}> CLick this:{count2}</button>
+  <div className='flex flex-col gap-3 w-full h-screen justify-center items-center'>
+    <h1>Click a button Increase of count values</h1>
+    <button className=" border p-2 bg-black text-white "onClick={IncreaseCount}> CLick this:{count}</button>
+    <button className='border p-2 bg-black text-white' onClick={Increase}> CLick this:{count2}</button>
     </div>
     </>
   )
